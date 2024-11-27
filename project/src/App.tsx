@@ -10,7 +10,7 @@ import Detect from './pages/Detect';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/project/">
       <div className="min-h-screen bg-black">
         <Navbar />
         <Routes>
